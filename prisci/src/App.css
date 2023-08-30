@@ -3,9 +3,9 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   background-image: url('https://th.bing.com/th/id/OIP.AJDYUusbuBAiuz6KRKgNAQHaGB?pid=ImgDet&rs=1'); /* Enlace a la imagen de patrón */
-  background-repeat: repeat; /* Repetir el patrón en todo el fondo */
-  background-size: cover; /* Ajustar el tamaño de la imagen al contenedor */
-  background-attachment: fixed; /* Fijar el fondo al viewport */
+  background-repeat: repeat; 
+  background-size: cover; 
+  background-attachment: fixed; 
 }
 
 .navbar {
@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-nav {
-  margin-left: auto; /* Alinear elementos a la derecha */
+  margin-left: auto; 
 }
 
 .footer {
@@ -30,74 +30,70 @@ body {
 
 .navbar-brand {
   background-image: url('https://i.pinimg.com/originals/7e/37/49/7e37492fe9e89a7381dcb84ce66f28ad.jpg'); /* Enlace a tu logo */
-  background-size: contain; /* Ajustar el tamaño de la imagen */
-  background-repeat: no-repeat; /* Evitar repetición */
-  width: 40px; /* Ancho de la imagen */
-  height: 30px; /* Altura de la imagen */
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  width: 40px; 
+  height: 30px; 
   display: inline-block;
   vertical-align: middle;
-  background-position: 5px center; /* Mover 10px hacia la derecha */
+  background-position: 5px center; 
 }
 
-
-/* CardContainer.css */
 .card-container {
   display: flex;
-  flex-direction: column; /* Colocar tarjetas una debajo de la otra */
-  align-items: center; /* Centrar horizontalmente las tarjetas */
-  justify-content: center; /* Centrar verticalmente el contenedor */
-  width: 800px; /* Establecer ancho del contenedor */
-  height: 540px; /* Establecer altura del contenedor */
-  overflow: auto; /* Agregar scroll si las tarjetas exceden la altura */
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  width: 800px; 
+  height: 540px; 
+  overflow: auto; 
   border: 1px solid #ccc;
-  margin: auto; /* Centrar el contenedor horizontalmente */
+  margin: auto; 
 }
 
-
-/* CardContainer.css */
 .card-container {
-  width: 1000px; /* Establecer el ancho del contenedor */
+  width: 1000px; 
   display: flex;
-  flex-direction: column; /* Cambiar la dirección a columna */
-  align-items: stretch; /* Alinear elementos horizontalmente */
-  margin: 0 auto; /* Centrar el contenedor en la página */
+  flex-direction: column; 
+  align-items: stretch;
+  margin: 0 auto; 
 }
 
 .card {
   border: 1px solid #ccc;
-  margin-bottom: 10px; /* Agregar espacio entre tarjetas */
+  margin-bottom: 10px; 
   display: flex;
-  align-items: center; /* Centrar elementos verticalmente */
-  padding: 10px; /* Agregar espacio interno a la tarjeta */
+  align-items: center; 
+  padding: 10px; 
 }
 
 .card-image {
   flex: 0 0 auto;
-  padding-right: 10px; /* Agregar espacio entre imagen y contenido */
+  padding-right: 10px; 
 }
 
 .card-image img {
   max-width: 100%;
-  max-height: 60px; /* Reducir la altura de las imágenes */
+  max-height: 60px; 
   object-fit: cover;
 }
 
 .card-content {
-  flex: 1; /* Ocupar todo el espacio restante horizontalmente */
-  padding-left: 10px; /* Agregar espacio entre imagen y texto */
+  flex: 1; 
+  padding-left: 10px; 
 }
 
 .card-content h2 {
-  font-size: 14px; /* Ajustar el tamaño del título */
+  font-size: 14px; 
 }
 
 .card-content p {
-  font-size: 12px; /* Ajustar el tamaño del texto */
+  font-size: 12px; 
 }
 
 .card-icons {
   display: flex;
-  flex-direction: column; /* Cambiar la dirección a columna */
-  align-items: flex-end; /* Alinear a la derecha verticalmente */
-  justify-content: center; /* Centrar verticalmente los iconos */
+  flex-direction: column;
+  align-items: flex-end; 
+  justify-content: center; 
 }
