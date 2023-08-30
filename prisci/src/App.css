@@ -40,25 +40,20 @@ body {
 }
 
 .card-container {
+  width: 1000px;
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-  width: 800px; 
-  height: 540px; 
-  overflow: auto; 
-  border: 1px solid #ccc;
-  margin: auto; 
-}
-
-.card-container {
-  width: 1000px; 
-  display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: stretch;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
+.card {
+  border: 1px solid #ccc;
+  margin: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
 .card {
   border: 1px solid #ccc;
   margin-bottom: 10px; 
