@@ -12,6 +12,7 @@ function App() {
           imagen= 'https://i2.wp.com/enrilemoine.com/wp-content/uploads/2013/08/Ensalada-siete-sabores-SAVOIR-FAIRE-by-enrilemoine-3.jpg?w=1600&ssl=1'
           title='ensalada'
           description='Lava y corta lechuga, tomates, pepinos y zanahorias. Agrega proteínas como pollo o atún. Mezcla con aguacate, nueces o queso. Prepara un aderezo con aceite de oliva, vinagre, mostaza, miel, sal y pimienta. Rocía sobre la ensalada y mezcla.'
+          icono1= 'https://cdn-icons-png.flaticon.com/128/1143/1143124.png'
           /> 
            <CardContainer 
           imagen= 'https://th.bing.com/th/id/R.c87125516ba2b70cc0136760f08dac3d?rik=ikBBnVLMfTN1yQ&pid=ImgRaw&r=0'

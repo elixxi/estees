@@ -8,7 +8,7 @@ import Noquis from '../img/noquis.jpg';
 import Ensalada from '../img/ensalada.jpg';
 
 function CardContainer(props) {
-  const {imagen, title, description}=props;
+  const {imagen, title, description, icono1}=props;
     return (
       <div className="card">
       <div className="card-image">
@@ -18,7 +18,7 @@ function CardContainer(props) {
         <h3>{title}</h3>
         <p>{description}</p>
         <div className="card-icons">
-  <div>Icono 1</div>
+  <div>{icono1}</div>
   <div>Icono 2</div>
   <div>Icono 3</div>
 </div>
